@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+.square-display {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 600px;
+  height: 600px;
+}
+
+.square {
+  border: 15px solid pink;
+  width: 600px;
+  height: 600px;
+}
+
+.square-ctrl {
+  width: 25px;
+  height: 25px;
+  border: 1px solid pink;
+  background-color: salmon;
+  display: inline-block;
+  position: absolute;
+}
+.square-ctrl:active {
+  background-color: orange;
+  cursor: grabbing;
+  transform: scale(1.2);
+}
+.ctrl-1 {
+  top: 40px;
+  left: 15px;
+}
+
+.ctrl-2 {
+  top: 15px;
+  left: 40px;
+}
+.ctrl-3 {
+  top: 15px;
+  left: 575px;
+}
+.ctrl-4 {
+  top: 40px;
+  left: 600px;
+}
+
+.ctrl-5 {
+  top: 575px;
+  left: 600px;
+}
+.ctrl-6 {
+  top: 600px;
+  left: 575px;
+}
+
+.ctrl-7 {
+  top: 575px;
+  left: 15px;
+}
+.ctrl-8 {
+  top: 600px;
+  left: 40px;
+}
+
+aside {
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 500px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  margin: 50px 0px;
+  font-size: 1rem;
+  outline: none;
+}
